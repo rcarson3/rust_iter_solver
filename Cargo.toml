@@ -1,0 +1,21 @@
+[package]
+name = "rust_iter_solver"
+version = "0.0.1"
+authors = ["rcarson3 <rac428@cornell.edu>"]
+license = "MIT/Apache-2.0"
+readme = "README.md"
+publish = false
+
+repository = "https://github.com/rcarson3/rust_iter_solver/"
+documentation = ""
+
+description = "A series of iterative linear solver methods built in pure Rust. The goal of this library is to provide methods in which other linear algebra and science libraries may build upon."
+
+keywords = ["array", "linear-solver", "linear-algebra" ]
+categories = ["science", "mathematics"]
+
+[dependencies]
+ndarray = "0.11.2"
+num-traits = "0.2"
+[dev-dependencies]
+csv = "1" 
